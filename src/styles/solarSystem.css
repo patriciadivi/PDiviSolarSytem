@@ -1,0 +1,21 @@
+.solarSystem {
+  border: 2px solid rebeccapurple;
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+
+}
+
+.solarSystem h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.solarSystem p {
+  text-align: center;
+}
+
+.solarSystem img {
+  display: flex;
+  width: 90%;
+}
