@@ -1,0 +1,16 @@
+.title {
+  border: 2px solid rebeccapurple;
+  /* display: flex; */
+  margin: 0 auto;
+  width: 90%;
+
+}
+
+.title h2 {
+  align-self: center;
+  display: flex;
+}
+
+.title img {
+  width: 90%;
+}

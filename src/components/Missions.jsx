@@ -3,7 +3,7 @@ import Title from './Title';
 import missions from '../data/missions';
 import MissionCard from './MissionCard';
 
-class Mission extends React.Component {
+class Missions extends React.Component {
   render() {
     return (
       <div data-testid="missions">
@@ -14,7 +14,7 @@ class Mission extends React.Component {
               name={ missionNow.name }
               year={ missionNow.year }
               country={ missionNow.country }
-              destrination={ missionNow.destination }
+              destination={ missionNow.destination }
             />
           </div>
         ))}
@@ -23,4 +23,4 @@ class Mission extends React.Component {
   }
 }
 
-export default Mission;
+export default Missions;
